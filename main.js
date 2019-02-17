@@ -324,7 +324,7 @@ class GameOver {
             this.effectiveness = blocksClicked/this.clicksNumber;
         else this.effectiveness = 0;
 
-        if (difficultyCode = 1)
+        if (difficultyCode == 1)
             difficultyCode = 0.02;
         if(difficultyCode == 3)
             difficultyCode = 2000;
