@@ -329,7 +329,7 @@ class GameOver {
         if(difficultyCode == 3)
             difficultyCode = 2000;
         
-        this.points = Math.round(difficultyCode * ((this.completePorcentage * 100) + (remainingTimePoints * 100) + (this.effectiveness * 100)));
+        this.points = Math.round(difficultyCode * ((this.completePorcentage * 100) + (remainingTimePoints) + (this.effectiveness * 100)));
     }
 
     showStatistics() {
