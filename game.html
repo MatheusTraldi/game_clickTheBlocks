@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Meu Jogo | Jogue!</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="main.js"></script>
+</head>
+<body onload="gameArea.createBlocks(); gamePanel.setClock(); gamePanel.setBlocksCounting()" onmousedown="gameArea.countingClicks();">
+    <div id="backgroundDiv"></div>
+    <div id="gamePanel">
+        <div id="clock" class="gamePanelElement"></div>
+
+        <div class="gamePanelElement">
+            <div class="restingBlockImage"></div>
+            <div id="restingBlocks"></div>
+        </div>
+
+        <div class="gamePanelElement">
+            <div class="deletedBlockImage"></div>
+            <div id="deletedBlocks"></div>
+        </div>
+    </div>
+
+    <div id="gameBase"></div>
+</body>
+</html>

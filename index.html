@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Meu Jogo | Iniciar</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div id="menuBase">
+        <div id="start" onclick="menu.start()">
+            START
+        </div>
+
+        <div id="selectionEasy" class="difficultyNotSelection" onclick="menu.select(this.id)">
+            easy
+        </div>
+
+        <div id="selectionMedium" class="difficultySelected" onclick="menu.select(this.id)">
+            medium
+        </div>
+
+        <div id="selectionHard" class="difficultyNotSelection" onclick="menu.select(this.id)">
+            hard
+        </div>
+    </div>
+</body>
+</html>
