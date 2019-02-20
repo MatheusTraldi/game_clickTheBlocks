@@ -1,5 +1,5 @@
 # Game: Click The Blocks
-A simple web game done to practice web development concepts (HTML, CSS and JavaScript).
+A very simple web game done to practice web development concepts (HTML, CSS and JavaScript).
 
 This is my first experience developing a project that encapsulates the three main web development concepts.
 
